@@ -1,5 +1,3 @@
-/* styles.css */
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -28,7 +26,7 @@ body {
 .hero-section img {
     max-width: 100%;
     height: auto;
-    opacity: 0.7; /* Adjust the opacity of the hero image */
+    opacity: 0.7; 
 }
 * {
   box-sizing: border-box;
@@ -46,13 +44,19 @@ body {
   display: table;
 }
 
+p1{
+  font-size:50px;
+  font-family: 'Bree Serif', serif;
+  color:deeppink;
+  
+}
 .content {
     padding: 20px;
     text-align: center;
 }
 
 .additional-section {
-    background-color: #FFC1E3; /* Background color */
+    background-color: #FFC1E3; 
     padding: 50px;
     text-align: center;
 }
@@ -62,3 +66,4 @@ body {
     padding: 20px;
     text-align: center;
 }
+
