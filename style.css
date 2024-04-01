@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    background-color: rgba(255, 192, 203, 0); 
+    padding: 100px 0px 0px 50px;
+    width:100%;
+    text-align: left;
+    z-index: 1; 
+    font-family: "Lily Script One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 100px;
+  color: mintcream;
+  text-shadow: 5px 5px 5px deeppink;
+}
+
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7; /* Adjust the opacity of the hero image */
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.additional-section {
+    background-color: #FFC1E3; /* Background color */
+    padding: 50px;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgba(255, 20, 147, 0.9); 
+    padding: 20px;
+    text-align: center;
+}
